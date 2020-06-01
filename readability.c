@@ -25,7 +25,7 @@
    }
    //printf("%i letter(s)\n", i);
     
-    int w = 3;
+    int w = 1;
     for (int c = 0; c < n ; c++)
     {
         if (((text[c] == ' ') && (text [c + 1] >= 'a') && (text[c + 1] <= 'z')) || ((text[c] == ' ') && (text [c + 1] >= 'A') && (text[c + 1] <= 'Z')) )
