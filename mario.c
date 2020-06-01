@@ -1,18 +1,9 @@
 
 #include <cs50.h>
 #include <stdio.h>
-void draw_right(int height);
 
 int main(void)
 { 
-    // Ask the user Height and make sure it is between 1 to 8 inclusive 
-    int h;
-    do 
-    {
-        h = get_int("Height ");
-    }
-    while (h <  1 || h > 8);
-    { 
     // Ask the user Height and make sure it is between 1 to 8 inclusive 
     int h;
     do 
@@ -32,6 +23,12 @@ int main(void)
         for (int b = 0; b < h - (h - a); b++)
         {
             printf("#");
+        }
+        printf("  ");
+
+        for(int b = 0; b < h - (h - a); b++)
+        {
+          printf("#");
         }
         printf("\n");
     }
