@@ -62,8 +62,17 @@
     
     index = round(index);
     
-    
+    if (index < 1)
+    {
+    printf("Before Grade 1\n");
+    }
+    else if (index > 16)
+    {
+        printf("Grade 16+\n");
+    }
+    else
+    {
     printf("Grade %1.f\n", index);
-    
+    }
     return 0;
 }
