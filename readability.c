@@ -23,7 +23,7 @@
      }
     
    }
-   // printf("%i letter(s)\n", i);
+   //printf("%i letter(s)\n", i);
     
     int w = 1;
     for (int c = 0; c < n ; c++)
@@ -33,12 +33,12 @@
             w += 1;
         }
     }
-   // printf("%i word(s)\n", w);
+   //printf("%i word(s)\n", w);
     
     int s = 0;
     for (int c = 0; c < n; c++)
     {
-        if((text[c] == '?') || (text[c] == '!') || (text[c] == '.'))
+        if(((text[c] == '?') || (text[c] == '!') || (text[c] == '.')) && ((text [c + 1] >= 'A') || (text[c + 1] <= 'Z')))
         {
             s += 1;
         }
