@@ -1,23 +1,26 @@
 #include <cs50.h>
 #include <stdio.h>
 int main(void)
-{
+{ 
+    // Ask the user Height and make sure it is between 1 to 8 inclusive 
     int h;
     do 
     {
         h = get_int("Height ");
     }
     while (h <  1 || h > 8);
-
-    for(int a = 1; a < h+1; a++)
+    // draw coloumns as high as height(n)
+    for (int a = 1; a < h + 1; a++)
     {
-        for(int c = 0; c < h-a; c++)
+        // space numbers decreasing downward
+        for (int c = 0; c < h - a; c++)
         {
             printf(" ");
         }
-        for(int b = 0; b < h-(h-a); b++)
+        // hash numbers increasing downward and total of hash and space gives the number of height(n)
+        for (int b = 0; b < h - (h - a); b++)
         {
-        printf("#");
+            printf("#");
         }
         printf("\n");
     }
