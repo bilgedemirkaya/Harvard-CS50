@@ -1,7 +1,9 @@
 Implement a program that runs a runoff election, per the below.
 
 ./runoff Alice Bob Charlie
+
 Number of voters: 5
+
 Rank 1: Alice
 Rank 2: Bob
 Rank 3: Charlie
