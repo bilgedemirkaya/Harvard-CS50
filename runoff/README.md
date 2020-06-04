@@ -34,4 +34,5 @@ Rank 2: Alice
 
 Rank 3: Bob
 
-Alice
+
+Winner is Alice
