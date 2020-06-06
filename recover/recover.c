@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
         FILE *img = NULL;
         
         //created a temporary space to store what is readed from file
-        unsigned char buffer[512];
+        insigned char *buffer = malloc(512);
         
         int counter = 0;
         int title = 0;
@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
             then it should keep writing to it */
             if (counter == 1)
             {
-                fwrite(&buffer, 512, 1, img);
+                fwrite(buffer, 512, 1, img);
                 
             }
             
@@ -67,6 +67,7 @@ int main(int argc, char *argv[])
             fclose(img);
         }
         fclose(file);
+        free(buffer);
     }
     else
     {
