@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>General Strategy</title>
+    </head>
+    <style>
+body{
+            background-image: url('backgroundchess.jpg');
+            background-position:center center;
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            background-size:cover;
+
+        }
+        p{
+            color:white;
+        }
+        h1{
+            color:white;
+        }
+        a:link, a:visited
+        {
+            background-color: black;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            
+        }
+a:hover, a:active 
+{
+            background-color: red;
+            
+        }
+  </style>
+    <body>
+      <h1 style="color:powderblue">Attack with Every Pieces</h1>
+      <p>Above all; In order to succeed in attack, pieces should be well-organised and ready to corporate with each other </p>
+      <p>If you are not certainly sure about mating, never attack opponent's king because most likely if you can't mate your opponent during an attack, you will get damaged and even will be mated. </p>
+      <img src="attackposition.JPG" alt="attacking" style="float:left"><p> Here is an example of an succesful attack: 12. Bxh7+ Kxh7 13. Ng5+ Kg6 14. Qg4 f5 <br> f5 is the best move because e5 is going to be mate immediately (e5 15. Ne6+ Kf6 16. f4! e4 17. Qg5+ Kxe6 18. Qe5+ Kd7 19. Rfd1+ Nd3 20. Nxe5, Kc6 )<br>
+      Qg3 Kh6 16. Qh4+ Kg6 17. Qh7+ Kf6 18. e4 Ng6 19. exf5 exf5 20. Rad1 Nd3 21. Qh3 Ndf4 22. Qg3 Qc7 23. Rfe1 Ne2+</p>
+      <p>This mistake will lose to the opponent immediately but there was no other choice.<br> Be6 24. Rxe6+ Nxe6 25. Nd5++. 24. Rxe2 Qxc7 <br> Nh7+ Kf7 26. hxc7 Rh8 27. Ng5+ Kf6 28. f4 is mate</p>
+      <p> As we see in this example; If there is no opportunity for the attack, try to strength your opponent weaknesses; if there is no weaknesses try to create one</p>
+
+<hr>
+      <h3 style="color:white;">Can you give us a review?</h3>
+      <form style="color:white;">
+          <label for="gender">What is your gender?</label>
+          <select id="gender" name="gnd">
+              <option value="female"> female</option>
+              <option value="male">male</option>
+              <option value="other">other</option>
+          </select>
+          
+</form>
+<form style="color:white;">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="age">Age:</label><br>
+  <input type="number" id="age" name="age"><br>
+  <form action="/action_page.php">
+      <p>Please write your comments here: </p>
+  <textarea name="message" rows="7" cols="30" font-style="italic">Thank you for your time...</textarea>
+  <br><br>
+   <input type="reset" value="reset">
+   <input type="submit" value="submit">
+</form>
+</form>
+<br><br>
+<a href="index.html">go back</a>
+    </body>
+</html>
