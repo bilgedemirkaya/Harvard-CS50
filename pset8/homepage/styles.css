@@ -1,0 +1,78 @@
+a:link, a:visited
+        {
+            background-color: burlywood;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            
+        }
+a:hover, a:active 
+{
+            background-color: red;
+            
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: burlywood;
+            
+        }
+        li {
+            float: left
+            
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            
+        }
+
+li a:hover {
+  background-color: powderblue;
+}
+.quotes
+{
+    background-color: burlywood;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  font-family: italic;
+}
+p{
+    font-family:verdana;
+    font-size:100%;
+}
+#myHeader{
+    font-size:70% ;
+}
+.banner { background-color: mintcream; }
+
+.wrapper { width: 30%;
+    margin: 0 auto; }
+
+.banner p {
+  font-family: "Gentium Basic";
+  font-size: 19px;
+  text-align: center;
+  color: #aaa;
+  margin-top: -10px;
+  display: block;
+ }
+
+ .banner span {
+  padding-top: 50px;
+  font-size: 17px;
+  vertical-align:top;
+ }
+  .banner .ban2 span {
+  padding-top: 50px;
+  font-size: 17px;
+  vertical-align:top;
+ }
