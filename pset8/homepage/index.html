@@ -4,32 +4,37 @@
     <head>
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
         <link href="styles.css" rel="stylesheet">
-        <title>General Strategy</title>
+        <title>ChessLessons</title>
     </head>
-    <style>
-body{
-            background-image: url('backgroundchess.jpg');
-            background-position:center center;
-            background-repeat:no-repeat;
-            background-attachment:fixed;
-            background-size:cover;
-
-        }
-        p{
-            color:white;
-        }
-        h1{
-            color:white;
-        }
-  </style>
     <body>
-        <h1> Please watch this first: </h1>
-        <br><Br>
-      <video width="320" height="240" controls>
-          <source src="movie.mp4" type="video/mp4">
-          </video>
-          <br><br>
-          <button onclick="document.location = 'second.html'">Go back</button>
-  <button onclick="document.location = 'forth.html'"> Keep on learning </button>
+      <h1 style="background-color:powderblue;"> CHESS <sub>LESSONS.com</sub></h1>
+      <ul>
+           <li><a href="second.html">General Theory</a></li>
+           <li><a href="#news">Practice</a></li>
+           <li><a href="#contact">Play</a></li>
+           <li><a href="#about">Contact</a></li>
+           </ul>
+        <h6 id="myHeader">Too scared to begin learning?</h6>
+      <button onclick="displayResult()">click here</button>
+      <script>
+      function displayResult() {
+          document.getElementById("myHeader").innerHTML = "But you can do this!";
+          
+      }
+      </script>
+
+<div class="banner">
+    <div class="wrapper">
+<p style="color:black;"><img src="kid.jpg" alt="chess" style="float:left;"><span>Advanced Chess Tactics</span>
+          <br>
+         <span class="ban2">Masters Strategy <br> Immortal Games</span></p>
+    </div>
+</div>
+
+       <div class="quotes">
+           <p> Every chess master was once a beginner </p><button onclick="document.location = 'second.html'">Start learning now</button>
+       </div>
+       <hr>
+       <p>For more visit</p><a href="https://www.chess.com/">chess.com</a>
     </body>
 </html>
